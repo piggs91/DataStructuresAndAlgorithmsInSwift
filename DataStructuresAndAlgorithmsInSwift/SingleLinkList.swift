@@ -141,12 +141,15 @@ public class SingleLinkList {
         return nil
         }
         else if (head?.info == el)
-     {
+     {  let node = head
         try self.deleteFromHead()
+        return node
      }
         else if (tail?.info == el)
-     {
+     {  let node = tail
         try self.deleteFromTail()
+        return tail
+        
      }
         else
      {
@@ -172,6 +175,6 @@ public class SingleLinkList {
         return currentNode
         
         }
-        return nil
+       
     }
 }
