@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4172F81E1C35603C005CE524 /* SingleNodeGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F81D1C35603C005CE524 /* SingleNodeGeneric.swift */; };
+		4172F8201C35612B005CE524 /* SingleLinkedListGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F81F1C35612B005CE524 /* SingleLinkedListGeneric.swift */; };
 		41FE39881C341DAB0064D1EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE39871C341DAB0064D1EA /* main.swift */; };
 		41FE398F1C341E760064D1EA /* SingleLinkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE398E1C341E760064D1EA /* SingleLinkNode.swift */; };
 		41FE39911C341FBD0064D1EA /* SingleLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE39901C341FBD0064D1EA /* SingleLinkList.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4172F81D1C35603C005CE524 /* SingleNodeGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNodeGeneric.swift; sourceTree = "<group>"; };
+		4172F81F1C35612B005CE524 /* SingleLinkedListGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleLinkedListGeneric.swift; sourceTree = "<group>"; };
 		41FE39841C341DAB0064D1EA /* DataStructuresAndAlgorithmsInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithmsInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE39871C341DAB0064D1EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		41FE398E1C341E760064D1EA /* SingleLinkNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleLinkNode.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				41FE39871C341DAB0064D1EA /* main.swift */,
 				41FE398E1C341E760064D1EA /* SingleLinkNode.swift */,
 				41FE39901C341FBD0064D1EA /* SingleLinkList.swift */,
+				4172F81D1C35603C005CE524 /* SingleNodeGeneric.swift */,
+				4172F81F1C35612B005CE524 /* SingleLinkedListGeneric.swift */,
 			);
 			path = DataStructuresAndAlgorithmsInSwift;
 			sourceTree = "<group>";
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41FE39911C341FBD0064D1EA /* SingleLinkList.swift in Sources */,
+				4172F8201C35612B005CE524 /* SingleLinkedListGeneric.swift in Sources */,
 				41FE39881C341DAB0064D1EA /* main.swift in Sources */,
 				41FE398F1C341E760064D1EA /* SingleLinkNode.swift in Sources */,
+				4172F81E1C35603C005CE524 /* SingleNodeGeneric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,7 @@
 				41FE398D1C341DAB0064D1EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
