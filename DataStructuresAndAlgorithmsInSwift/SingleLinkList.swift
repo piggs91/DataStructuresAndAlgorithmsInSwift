@@ -148,7 +148,7 @@ public class SingleLinkList {
         else if (tail?.info == el)
      {  let node = tail
         try self.deleteFromTail()
-        return tail
+        return node
         
      }
         else
